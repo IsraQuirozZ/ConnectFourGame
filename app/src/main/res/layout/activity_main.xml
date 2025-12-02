@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/backgroundLight">
+
+    <!-- Usuario arriba a la izquierda -->
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/textPrimary"
+        android:visibility="invisible"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <!-- Título centrado -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect Four"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/textPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+    <!-- Botón CREAR JUGADOR -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_create_player"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Crear jugador"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="200dp"
+        app:cornerRadius="12dp"
+        app:backgroundTint="@color/buttonEnabledBg"
+        android:textColor="@color/buttonEnabledText" />
+
+    <!-- Botón JUGAR (abajo) -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_play"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Jugar"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_create_player"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        app:cornerRadius="12dp"
+        app:backgroundTint="@color/buttonDisabledBg"
+        android:textColor="@color/buttonDisabledText" />
+
+</RelativeLayout>

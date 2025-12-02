@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- BRAND / PRIMARY COLORS -->
+    <color name="primary">#673AB7</color>          <!-- Morado principal -->
+    <color name="primaryDark">#512DA8</color>      <!-- Morado oscuro -->
+    <color name="primaryLight">#9575CD</color>     <!-- Morado claro -->
+    <color name="primaryVeryLight">#D1C4E9</color> <!-- Para disabled -->
+
+    <!-- ACCENT COLORS -->
+    <color name="accent">#7C4DFF</color>           <!-- Morado vibrante -->
+
+    <!-- BACKGROUND COLORS -->
+    <color name="backgroundLight">#FAFAFA</color>  <!-- Fondo recomendado -->
+    <color name="backgroundSoft">#F5F5F5</color>   <!-- Fondo alternativo -->
+    <color name="backgroundCard">#FFFFFF</color>   <!-- Para tarjetas/caja -->
+
+    <!-- TEXT COLORS (alta visibilidad) -->
+    <color name="textPrimary">#1A237E</color>      <!-- Indigo muy oscuro -->
+    <color name="textSecondary">#616161</color>    <!-- Gris medio -->
+    <color name="textDisabled">#9E9E9E</color>     <!-- Texto disabled -->
+
+    <!-- BUTTON COLORS -->
+    <color name="buttonEnabledText">#FFFFFF</color>
+    <color name="buttonEnabledBg">#673AB7</color>
+
+    <color name="buttonDisabledText">#767474</color>
+    <color name="buttonDisabledBg">#D1C4E9</color>
+
+    <!-- GAME COLORS (Conecta 4) -->
+    <color name="connect4Red">#D32F2F</color>       <!-- Rojo fuerte -->
+    <color name="connect4RedDark">#B71C1C</color>   <!-- Rojo oscuro -->
+    <color name="connect4Yellow">#FBC02D</color>    <!-- Amarillo -->
+    <color name="connect4YellowDark">#F9A825</color><!-- Amarillo oscuro -->
+    <color name="connect4BoardBlue">#0D47A1</color> <!-- Azul del tablero -->
+
+    <!-- NEUTRAL UTILITIES -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>

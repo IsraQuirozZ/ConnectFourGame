@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundLight">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- TITLE -->
+        <TextView
+            android:id="@+id/tv_title_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Player"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="32dp"
+            android:layout_gravity="center" />
+
+        <!-- USERNAME FIELD -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_username_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            app:boxStrokeColor="@color/primary"
+            app:boxStrokeWidthFocused="2dp"
+            app:hintTextColor="@color/textSecondary"
+            app:counterEnabled="true"
+            app:counterMaxLength="20"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textPrimary"
+                android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!-- PASSWORD FIELD -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_password_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            app:endIconMode="password_toggle"
+            app:passwordToggleEnabled="true"
+            app:boxStrokeColor="@color/primary"
+            app:boxStrokeWidthFocused="2dp"
+            android:layout_marginTop="24dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textPrimary"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!-- REPEAT PASSWORD FIELD -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_repeat_password_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Repeat Password"
+            app:endIconMode="password_toggle"
+            app:passwordToggleEnabled="true"
+            app:boxStrokeColor="@color/primary"
+            app:boxStrokeWidthFocused="2dp"
+            android:layout_marginTop="24dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_repeat_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textPrimary"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!-- BUTTON CREATE -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_create_player_form"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Crear jugador"
+            android:textSize="18sp"
+            android:layout_marginTop="36dp"
+            app:cornerRadius="12dp"
+            app:backgroundTint="@color/buttonEnabledBg"
+            android:textColor="@color/buttonEnabledText"/>
+
+    </LinearLayout>
+
+</ScrollView>
