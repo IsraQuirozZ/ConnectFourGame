@@ -34,67 +34,104 @@
             <!-- TABLERO -->
             <GridLayout
                 android:id="@+id/grid_game"
-                android:layout_width="wrap_content"
+                android:layout_width="345dp"
                 android:layout_height="wrap_content"
-                android:alignmentMode="alignBounds"
-                android:rowCount="6"
+                android:layout_gravity="center"
+                android:alignmentMode="alignMargins"
                 android:columnCount="7"
-                android:useDefaultMargins="false"
-                android:padding="4dp">
+                android:padding="8dp"
+                android:rowCount="6"
+                android:useDefaultMargins="true">
 
                 <!-- FILA 1 -->
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
 
                 <!-- FILA 2 -->
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
 
                 <!-- FILA 3 -->
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
 
                 <!-- FILA 4 -->
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
 
                 <!-- FILA 5 -->
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
 
                 <!-- FILA 6 -->
-                <include layout="@layout/item_chip_red"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_empty_chip"/>
-                <include layout="@layout/item_chip_blue"/>
-                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_chip_red" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_empty_chip" />
+
+                <include layout="@layout/item_chip_blue" />
+
+                <include layout="@layout/item_empty_chip" />
 
             </GridLayout>
 
