@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryVeryLight">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- TÍTULO -->
+        <TextView
+            android:id="@+id/tv_title_game"
+            android:text="Connect 4"
+            android:textColor="@color/primary"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="32dp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- CONTENEDOR CENTRADO -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <!-- TABLERO -->
+            <GridLayout
+                android:id="@+id/grid_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignBounds"
+                android:rowCount="6"
+                android:columnCount="7"
+                android:useDefaultMargins="false"
+                android:padding="4dp">
+
+                <!-- FILA 1 -->
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+
+                <!-- FILA 2 -->
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+
+                <!-- FILA 3 -->
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+
+                <!-- FILA 4 -->
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+
+                <!-- FILA 5 -->
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+
+                <!-- FILA 6 -->
+                <include layout="@layout/item_chip_red"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_empty_chip"/>
+                <include layout="@layout/item_chip_blue"/>
+                <include layout="@layout/item_empty_chip"/>
+
+            </GridLayout>
+
+        </FrameLayout>
+
+        <!-- TEXTO TURNO -->
+        <TextView
+            android:id="@+id/tv_turn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red player's"
+            android:textSize="22sp"
+            android:textColor="@color/redSoft"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="32dp"/>
+
+        <TextView
+            android:id="@+id/tv_turn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="turn"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="4dp"/>
+
+        <!-- BOTÓN SALIR -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_exit_game"
+            android:layout_width="200dp"
+            android:layout_height="56dp"
+            android:text="Salir"
+            android:textSize="18sp"
+            android:layout_marginTop="36dp"
+            app:cornerRadius="12dp"
+            app:backgroundTint="@color/buttonEnabledBg"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</ScrollView>

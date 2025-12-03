@@ -28,11 +28,11 @@
     <color name="buttonDisabledBg">#D1C4E9</color>
 
     <!-- GAME COLORS (Conecta 4) -->
-    <color name="connect4Red">#D32F2F</color>       <!-- Rojo fuerte -->
-    <color name="connect4RedDark">#B71C1C</color>   <!-- Rojo oscuro -->
-    <color name="connect4Yellow">#FBC02D</color>    <!-- Amarillo -->
-    <color name="connect4YellowDark">#F9A825</color><!-- Amarillo oscuro -->
-    <color name="connect4BoardBlue">#0D47A1</color> <!-- Azul del tablero -->
+    <!--<color name="yellowSoft">#F6D55C</color>      Amarillo suave, cálido y visible -->
+    <color name="blueSoft">#3FB4DE</color>
+    <!-- <color name="redSoft">#D93D4D</color>        Rojo suave moderno, no tan saturado -->
+    <color name="redSoft">#D9316F</color>
+    <color name="emptyChipBorder">#90FFFFFF</color>  <!-- Blanco con borde suave translúcido -->
 
     <!-- NEUTRAL UTILITIES -->
     <color name="white">#FFFFFF</color>

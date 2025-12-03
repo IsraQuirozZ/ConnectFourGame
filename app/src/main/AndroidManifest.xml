@@ -13,6 +13,7 @@
         android:theme="@style/Theme.ConnectFourGame">
 
         <activity android:name=".CreatePlayerActivity" />
+        <activity android:name=".GameActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -12,8 +12,8 @@
         android:id="@+id/tv_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hola"
-        android:textSize="18sp"
+        android:text=""
+        android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="@color/textPrimary"
         android:visibility="invisible"
@@ -58,7 +58,6 @@
         android:layout_marginTop="20dp"
         android:enabled="false"
         app:cornerRadius="12dp"
-        app:backgroundTint="@color/buttonDisabledBg"
-        android:textColor="@color/buttonDisabledText" />
-
+        app:backgroundTint="@color/btn_play_selector"
+        android:textColor="@color/btn_play_text_selector" />
 </RelativeLayout>
